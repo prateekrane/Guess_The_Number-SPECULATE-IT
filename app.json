@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "MYGAME",
+    "slug": "MYGAME",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mainicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mainicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mainicon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.pratee_k7.MYGAME"
+    },
+    "web": {
+      "favicon": "./assets/mainicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f7e9740d-4fc0-4429-a240-14eee72f139f"
+      }
+    }
+  }
+}
